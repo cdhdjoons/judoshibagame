@@ -1,0 +1,718 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "data": [
+        {
+          "x": 538,
+          "y": 455,
+          "v": 0,
+          "hp": 50,
+          "attack": 2,
+          "width": 271.70744851342386,
+          "height": 218.30057902675577,
+          "visible": true,
+          "animationFrame": 0
+        }
+      ],
+      "background": 2
+    },
+	
+	{
+      "level": 2,
+      "data": [
+        {
+          "x": 590,
+          "y": 455,
+          "v": 0,
+          "hp": 75,
+          "attack": 5,
+          "width": 362,
+          "height": 323,
+          "visible": true,
+          "animationFrame": 1
+        }
+      ],
+      "background": 2
+    },
+	
+	{
+      "level": 3,
+      "data": [
+        {
+          "x": 894,
+          "y": 426,
+          "v": 2,
+          "hp": 50,
+          "attack": 2,
+          "width": 265.7130728399163,
+          "height": 213.48445901388865,
+          "visible": true,
+          "animationFrame": 0
+        },
+        {
+          "x": 249,
+          "y": 435,
+          "v": 1,
+          "hp": 50,
+          "attack": 2,
+          "width": 265.7130729882584,
+          "height": 214.74215153218208,
+          "visible": true,
+          "animationFrame": 0
+        },
+        {
+          "x": 590,
+          "y": 453,
+          "v": 0,
+          "hp": 75,
+          "attack": 5,
+          "width": 371.17774293234316,
+          "height": 330.45500494875876,
+          "visible": true,
+          "animationFrame": 1
+        }
+      ],
+      "background": 2
+    },
+	
+	{
+      "level": 4,
+      "data": [
+        {
+          "x": 571,
+          "y": 453,
+          "v": 0,
+          "hp": 75,
+          "attack": 6,
+          "width": 370.51015706375983,
+          "height": 314.4329441027583,
+          "visible": true,
+          "animationFrame": 2
+        }
+      ],
+      "background": 3
+    },
+	
+	{
+      "level": 5,
+      "data": [
+   
+        {
+          "x": 581,
+          "y": 436,
+          "v": 0,
+          "hp": 100,
+          "attack": 10,
+          "width": 459,
+          "height": 444,
+          "visible": true,
+          "animationFrame": 3
+        }
+      ],
+      "background": 3
+    },
+	
+	{
+      "level": 6,
+      "data": [
+        {
+          "x": 894,
+          "y": 426,
+          "v": 2,
+          "hp": 50,
+          "attack": 2,
+          "width": 265.7130728399163,
+          "height": 213.48445901388865,
+          "visible": true,
+          "animationFrame": 0
+        },
+        {
+          "x": 257,
+          "y": 412,
+          "v": 1,
+          "hp": 50,
+          "attack": 2,
+          "width": 265.7130729882584,
+          "height": 214.74215153218208,
+          "visible": true,
+          "animationFrame": 0
+        },
+        {
+          "x": 581,
+          "y": 436,
+          "v": 0,
+          "hp": 120,
+          "attack": 10,
+          "width": 459,
+          "height": 444,
+          "visible": true,
+          "animationFrame": 3
+        }
+      ],
+      "background": 3
+    },
+	
+	{
+      "level": 7,
+      "data": [
+        {
+          "x": 894,
+          "y": 426,
+          "v": 2,
+          "hp": 120,
+          "attack": 10,
+          "width": 459,
+          "height": 444,
+          "visible": true,
+          "animationFrame": 3
+        },
+        {
+          "x": 257,
+          "y": 412,
+          "v": 1,
+          "hp": 120,
+          "attack": 10,
+          "width": 459,
+          "height": 444,
+          "visible": true,
+          "animationFrame": 3
+        },
+        {
+          "x": 581,
+          "y": 436,
+          "v": 0,
+          "hp": 120,
+          "attack": 10,
+          "width": 459,
+          "height": 444,
+          "visible": true,
+          "animationFrame": 3
+        }
+      ],
+      "background": 3
+    },
+	
+	{
+      "level": 8,
+      "data": [
+        {
+          "x": 581,
+          "y": 350,
+          "v": 0,
+          "hp": 120,
+          "attack": 15,
+          "width": 459,
+          "height": 444,
+          "visible": true,
+          "animationFrame": 4
+        }
+      ],
+      "background": 3
+    },
+	
+	{
+      "level": 9,
+      "data": [
+        {
+          "x": 550,
+          "y": 436,
+          "v": 0,
+          "hp": 70,
+          "attack": 20,
+          "width": 316,
+          "height": 260,
+          "visible": true,
+          "animationFrame": 5
+        }
+      ],
+      "background": 4
+    },
+	
+	{
+      "level": 10,
+      "data": [
+        {
+          "x": 600,
+          "y": 436,
+          "v": 0,
+          "hp": 100,
+          "attack": 25,
+          "width": 391,
+          "height": 316,
+          "visible": true,
+          "animationFrame": 6
+        }
+      ],
+      "background": 4
+    },
+	
+
+	{
+      "level": 11,
+      "data": [
+        {
+          "x": 384,
+          "y": 507,
+          "v": 1,
+          "hp": 150,
+          "attack": 5,
+          "width": 258,
+          "height": 148,
+          "visible": true,
+          "animationFrame": 8
+        },
+        {
+          "x": 695,
+          "y": 507,
+          "v": 0,
+          "hp": 150,
+          "attack": 5,
+          "width": 258,
+          "height": 148,
+          "visible": true,
+          "animationFrame": 8
+        }
+      ],
+      "background": 5
+    },
+	
+	{
+      "level": 12,
+      "data": [
+       
+	  {
+          "x": 540,
+          "y": 426,
+          "v": 0,
+          "hp": 250,
+          "attack": 15,
+          "width": 626,
+          "height": 431,
+          "visible": true,
+          "animationFrame": 9
+        }
+		
+		
+      ],
+      "background": 5
+    },
+	
+	{
+      "level": 13,
+      "data": [
+        {
+          "x": 241,
+          "y": 507,
+          "v": 2,
+          "hp": 150,
+          "attack": 5,
+          "width": 258,
+          "height": 148,
+          "visible": true,
+          "animationFrame": 8
+        },
+        {
+          "x": 834,
+          "y": 507,
+          "v": 1,
+          "hp": 150,
+          "attack": 5,
+          "width": 258,
+          "height": 148,
+          "visible": true,
+          "animationFrame": 8
+        },
+		
+	    {
+          "x": 540,
+          "y": 426,
+          "v": 0,
+          "hp": 250,
+          "attack": 15,
+          "width": 626,
+          "height": 431,
+          "visible": true,
+          "animationFrame": 9
+        }
+		
+		
+      ],
+      "background": 5
+    },
+	
+	{
+      "level": 14,
+      "data": [
+        {
+          "x": 241,
+          "y": 507,
+          "v": 2,
+          "hp": 150,
+          "attack": 5,
+          "width": 258,
+          "height": 148,
+          "visible": true,
+          "animationFrame": 8
+        },
+        {
+          "x": 834,
+          "y": 507,
+          "v": 1,
+          "hp": 150,
+          "attack": 5,
+          "width": 258,
+          "height": 148,
+          "visible": true,
+          "animationFrame": 8
+        },
+		
+	    {
+          "x": 585,
+          "y": 458,
+          "v": 0,
+          "hp": 200,
+          "attack": 25,
+          "width": 556,
+          "height": 516,
+          "visible": true,
+          "animationFrame": 7
+        }
+		
+		
+      ],
+      "background": 6
+    },
+	
+	{
+      "level": 15,
+      "data": [
+		
+	    {
+          "x": 577,
+          "y": 429,
+          "v": 0,
+          "hp": 150,
+          "attack": 25,
+          "width": 401,
+          "height": 319,
+          "visible": true,
+          "animationFrame": 10
+        }
+		
+		
+      ],
+      "background": 7
+    },
+	
+	
+	{
+      "level": 16,
+      "data": [
+		
+	    {
+          "x": 381,
+          "y": 429,
+          "v": 1,
+          "hp": 150,
+          "attack": 20,
+          "width": 401,
+          "height": 319,
+          "visible": true,
+          "animationFrame": 10
+        },
+		
+		 {
+          "x": 747,
+          "y": 429,
+          "v": 0,
+          "hp": 150,
+          "attack": 20,
+          "width": 401,
+          "height": 319,
+          "visible": true,
+          "animationFrame": 10
+        }
+		
+		
+      ],
+	  
+	  
+      "background": 7
+    },
+	
+	{
+      "level": 17,
+      "data": [
+        {
+          "x": 260,
+          "y": 526,
+          "v": 2,
+          "hp": 100,
+          "attack": 10,
+          "width": 260,
+          "height": 126,
+          "visible": true,
+          "animationFrame": 11
+        },
+        {
+          "x": 894,
+          "y": 526,
+          "v": 1,
+          "hp": 100,
+          "attack": 10,
+          "width": 260,
+          "height": 126,
+          "visible": true,
+          "animationFrame": 11
+        },
+        {
+          "x": 590,
+          "y": 453,
+          "v": 0,
+          "hp": 130,
+          "attack": 20,
+          "width": 401,
+          "height": 319,
+          "visible": true,
+          "animationFrame": 10
+        }
+      ],
+      "background": 7
+    },
+	
+	{
+      "level": 18,
+      "data": [
+        {
+          "x": 555,
+          "y": 453,
+          "v": 0,
+          "hp": 130,
+          "attack": 20,
+          "width": 424,
+          "height": 325,
+          "visible": true,
+          "animationFrame": 12
+        }
+      ],
+      "background": 8
+    },
+	
+	
+	{
+      "level": 19,
+      "data": [
+        {
+          "x": 830,
+          "y": 400,
+          "v": 0,
+          "hp": 200,
+          "attack": 20,
+          "width": 378,
+          "height": 335,
+          "visible": true,
+          "animationFrame": 13
+        },
+		
+		   {
+          "x": 257,
+          "y": 400,
+          "v": 1,
+          "hp": 200,
+          "attack": 20,
+          "width": 378,
+          "height": 335,
+          "visible": true,
+          "animationFrame": 14
+        }
+      ],
+      "background": 9
+    },
+	
+	
+	{
+      "level": 20,
+      "data": [
+        {
+          "x": 830,
+          "y": 400,
+          "v": 2,
+          "hp": 200,
+          "attack": 20,
+          "width": 378,
+          "height": 335,
+          "visible": true,
+          "animationFrame": 13
+        },
+		
+		   {
+          "x": 257,
+          "y": 400,
+          "v": 1,
+          "hp": 200,
+          "attack": 20,
+          "width": 378,
+          "height": 335,
+          "visible": true,
+          "animationFrame": 14
+        },
+		
+		 {
+          "x": 620,
+          "y": 413,
+          "v": 0,
+          "hp": 250,
+          "attack": 30,
+          "width": 381,
+          "height": 391,
+          "visible": true,
+          "animationFrame": 15
+        }
+      ],
+      "background": 9
+    },
+	
+	{
+      "level": 21,
+      "data": [
+        {
+          "x": 529,
+          "y": 467,
+          "v": 0,
+          "hp": 350,
+          "attack": 25,
+          "width": 381,
+          "height": 477,
+          "visible": true,
+          "animationFrame": 16
+        }
+		
+		
+      ],
+      "background": 9
+    },
+	
+	
+	{
+      "level": 22,
+      "data": [
+        {
+          "x": 551,
+          "y": 423,
+          "v": 0,
+          "hp": 400,
+          "attack": 30,
+          "width": 426,
+          "height": 385,
+          "visible": true,
+          "animationFrame": 17
+        }
+		
+		
+      ],
+      "background": 10
+    },
+	
+	
+	{
+      "level": 23,
+      "data": [
+        {
+          "x": 551,
+          "y": 423,
+          "v": 0,
+          "hp": 450,
+          "attack": 20,
+          "width": 469,
+          "height": 403,
+          "visible": true,
+          "animationFrame": 18
+        }
+		
+		
+      ],
+      "background": 10
+    },
+	
+	{
+      "level": 24,
+      "data": [
+        {
+          "x": 551,
+          "y": 423,
+          "v": 0,
+          "hp": 400,
+          "attack": 25,
+          "width": 405,
+          "height": 405,
+          "visible": true,
+          "animationFrame": 19
+        }
+		
+		
+      ],
+      "background": 10
+    },
+	
+	{
+      "level": 25,
+      "data": [
+        {
+          "x": 565,
+          "y": 408,
+          "v": 0,
+          "hp": 400,
+          "attack": 25,
+          "width": 428,
+          "height": 442,
+          "visible": true,
+          "animationFrame": 20
+        }
+		
+		
+      ],
+      "background": 10
+    },
+	
+	{
+      "level": 26,
+      "data": [
+        {
+          "x": 565,
+          "y": 408,
+          "v": 0,
+          "hp": 500,
+          "attack": 40,
+          "width": 602,
+          "height": 408,
+          "visible": true,
+          "animationFrame": 21
+        }
+		
+		
+      ],
+      "background": 10
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  ]
+}

@@ -1,0 +1,74 @@
+{
+    "collections": [
+        {
+            "name": "Heroes",
+            "totalCards": 7,
+            "collectedCards": 0,
+            "cards": [
+                { "name": "Lord of Flames", "collected": 0 },
+                { "name": "Shadow", "collected": 0 },
+                { "name": "Sorcerer", "collected": 0 },
+                { "name": "Berserker", "collected": 0 },
+                { "name": "Huntress", "collected": 0 },
+                { "name": "Dragon Knight", "collected": 0 },
+                { "name": "Duelist", "collected": 0 }
+               
+            ],
+            "completed": 0,
+            "reward": "gold200",
+            "rewardAnimation": "gold"
+        },
+		{
+            "name": "Relics of Power",
+            "totalCards": 7,
+            "collectedCards": 0,
+            "cards": [
+                { "name": "King’s Blade", "collected": 0 },
+                { "name": "Inferno Axe", "collected": 0 },
+                { "name": "Celestial Tome", "collected": 0 },
+                { "name": "Shadowfang", "collected": 0 },
+                { "name": "Phoenix Cloak", "collected": 0 },
+                { "name": "Amulet", "collected": 0 },
+                { "name": "Frost Ring", "collected": 0 }
+				
+            ],
+            "completed": 0,
+            "reward": "gold200",
+            "rewardAnimation": "gold"
+        },
+        {
+            "name": "Beasts",
+            "totalCards": 6,
+            "collectedCards": 0,
+            "cards": [
+                { "name": "Griffon", "collected": 0 },
+                { "name": "Drake", "collected": 0 },
+                { "name": "Wraith", "collected": 0 },
+                { "name": "Dire Wolf", "collected": 0 },
+                { "name": "Minotaur", "collected": 0 },
+                { "name": "Horror", "collected": 0 }
+      
+            ],
+            "completed": 0,
+            "reward": "gold300",
+            "rewardAnimation": "gold"
+        },
+        {
+            "name": "Artifacts",
+            "totalCards": 6,
+            "collectedCards": 0,
+            "cards": [
+                { "name": "Storm Clouds", "collected": 0 },
+                { "name": "Obsidian Sword", "collected": 0 },
+                { "name": "Hourglass", "collected": 0 },
+                { "name": "Blood Chalice", "collected": 0 },
+                { "name": "Void Ring", "collected": 0 },
+                { "name": "Eclipse Medallion", "collected": 0 }
+                
+            ],
+            "completed": 0,
+            "reward": "gold300",
+            "rewardAnimation": "gold"
+        }			
+    ]
+}
