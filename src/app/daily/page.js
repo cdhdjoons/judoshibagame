@@ -106,7 +106,7 @@ export default function DailyTask() {
                 >
                     <div className={`w-full max-w-[500px] px-[5%] relative flex flex-col `} >
                         <p className="w-full text-left text-[5vmax] sm:text-[4vmin] font-bold text-white ">Task List</p>
-                        <p className="w-full text-left text-[2vmax] sm:text-[2vmin] text-black ">Earn JSB and Play AI</p>
+                        <p className="w-full text-left text-[1.5vmax] sm:text-[2vmin] text-black ">Earn JSB and Play AI</p>
                     </div>
                     <div className=" w-[90%] h-full max-w-[500px] pb-[10%] flex flex-col justify-center items-center bg-boxBg rounded-[23px]" >
                         <div className=" w-full flex flex-col gap-[2%] items-center relative ">
