@@ -12,7 +12,7 @@ export default function Wallet() {
     const [disabledWalletTask, setDisabledWalletTask] = useState(false);
     //wallet address 존재여부
     const [onWallet, setOnWallet] = useState(false);
-    const manifestUrl = "https://pdggame.vercel.app/tonconnect-manifest.json"; // 여기에 실제 manifest URL을 입력하세요
+    const manifestUrl = "https://judoshibagame.vercel.app/tonconnect-manifest.json"; // 여기에 실제 manifest URL을 입력하세요
 
 
     //  TON Connect 인스턴스 설정

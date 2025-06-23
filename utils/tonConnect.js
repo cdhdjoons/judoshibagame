@@ -7,7 +7,7 @@ let tonConnect = null;
 export const getTonConnectInstance = () => {
   if (!tonConnect) {
     tonConnect = new TonConnect({
-      manifestUrl: "https://pdggame.vercel.app/tonconnect-manifest.json",
+      manifestUrl: "https://judoshibagame.vercel.app/tonconnect-manifest.json",
     });
   }
   return tonConnect;

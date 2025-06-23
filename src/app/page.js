@@ -18,7 +18,7 @@ export default function Home() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <a href="https://x.com/PDG_official_X" target="_blank" rel="noopener noreferrer" className="w-[90%] block">
+            <a href="https://x.com/Judo_Shiba" target="_blank" rel="noopener noreferrer" className="w-[90%] block">
               <div className="w-full max-w-[450px] px-[3%] bg-boxBg rounded-[23px] flex items-center aspect-[342/75] relative active:scale-95 transition-transform duration-100 ">
                 <div className="w-[9vmin] sm:w-[8vmin] aspect-[59/59] relative">
                   <Image

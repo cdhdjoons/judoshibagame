@@ -18,7 +18,7 @@ export default function DailyTask() {
     //invite 버튼 5번 클릭 시 포인트 지급 및 비활성화 관리
     const [inviteCount, setInviteCount] = useState(0);
 
-    const manifestUrl = "https://pdggame.vercel.app/tonconnect-manifest.json";
+    const manifestUrl = "https://judoshibagame.vercel.app/tonconnect-manifest.json";
 
 
     useEffect(() => {
@@ -165,7 +165,7 @@ export default function DailyTask() {
                                         <p className=" text-[2.1vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-black">RT our Post</p>
                                         <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">1k JSB</p>
                                     </div>
-                                    <a href="https://x.com/PDG_official_X" target="_blank" rel="noopener noreferrer" className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledDaily[1] ? 'opacity-100' : 'opacity-20'}`}>
+                                    <a href="https://x.com/Judo_Shiba" target="_blank" rel="noopener noreferrer" className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledDaily[1] ? 'opacity-100' : 'opacity-20'}`}>
                                         <div onClick={() => dailyHandleClick(1, 1000)} className={`w-[40%] duration-300 aspect-[1/1] transition-all rounded-full bg-white absolute top-[50%] -translate-y-[50%] ${disabledDaily[1] ? "-translate-x-[100%] left-full" : "translate-x-0 left-0"}`}></div>
                                     </a>
                                 </div>
@@ -200,7 +200,7 @@ export default function DailyTask() {
                                         <p className=" text-[2.1vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-black">Follow X</p>
                                         <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">1K JSB</p>
                                     </div>
-                                    <a href="https://x.com/PDG_official_X" target="_blank" rel="noopener noreferrer" className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledTask[0] ? 'opacity-100' : 'opacity-20'}`}>
+                                    <a href="https://x.com/Judo_Shiba" target="_blank" rel="noopener noreferrer" className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledTask[0] ? 'opacity-100' : 'opacity-20'}`}>
                                         <div onClick={() => handleClick(0, 1000)} className={`w-[40%] duration-300 aspect-[1/1] transition-all rounded-full bg-white absolute top-[50%] -translate-y-[50%] ${disabledTask[0] ? "-translate-x-[100%] left-full" : "translate-x-0 left-0"}`}></div>
                                     </a>
                                 </div>

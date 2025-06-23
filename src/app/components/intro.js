@@ -31,7 +31,7 @@ export default function Intro() {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <div className="w-[30vmax] sm:w-[25vmax] aspect-[1/1] text-[5vmax] relative">
+                    <div className="w-[25vmax] sm:w-[25vmax] aspect-[1/1] text-[5vmax] relative">
                         <Image
                             src="/image/judo_invite_main.png"
                             alt="main logo"

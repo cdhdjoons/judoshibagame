@@ -12,7 +12,7 @@ export default function Invite() {
     const [copied, setCopied] = useState(false);
 
     const handleCopyClick = () => {
-        const link = "https://t.me/PDG_explorer_bot"; // 복사할 링크
+        const link = "https://t.me/judo_shiba_bot"; // 복사할 링크
 
         // 클립보드에 링크를 복사
         navigator.clipboard.writeText(link).then(() => {
