@@ -9,7 +9,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 export default function Home() {
   return (
     <div className=" w-full h-full">
-      <div className=" w-full h-full max-w-[500px] pt-[3%] relative flex flex-col gap-1 " >
+      <div className=" w-full h-full max-w-[500px] pt-[3%] relative flex flex-col justify-evenly gap-1 " >
         <Intro />
         <AnimatePresence mode="wait">
           <motion.div className="w-full flex justify-center  relative "
