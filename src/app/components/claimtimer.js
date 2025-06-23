@@ -203,10 +203,10 @@ export default function ClaimTimer() {
                                 </button>)
                             }
                         </div>
-                        {onClaim ? <p onClick={startTimer} className=" w-full border-t-[0.5px] border-t-borderBlack text-center text-[#007AFF] text-[2.3vmax] xs:text-[2.35vmax] sm:text-[1.5vmax]
+                        {onClaim ? <p onClick={startTimer} className=" w-full border-t-[0.5px] border-t-borderBlack text-center text-[#007AFF] text-[5vmin] xs:text-[6vmin] sm:text-[2.5vmin]
                         active:scale-90 transition-transform duration-200">Claim now</p>
                             :
-                            <p className=" w-full border-t-[0.5px] border-t-borderBlack text-center text-[#646464] text-[6vmin] xs:text-[6vmin] sm:text-[2.5vmin]
+                            <p className=" w-full border-t-[0.5px] border-t-borderBlack text-center text-[#646464] text-[5vmin] xs:text-[6vmin] sm:text-[2.5vmin]
                         active:scale-90 transition-transform duration-200">Claim now</p>}
                     </div>
                 </div>

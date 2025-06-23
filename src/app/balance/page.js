@@ -72,7 +72,7 @@ export default function Balance() {
               <div className=" w-[90%] h-[50%] relative flex justify-between items-center border-b-[0.5px] border-b-white  ">
                 <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                   <Image
-                    src="/image/judo_logo.png"
+                    src="/image/judo_big_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
@@ -87,7 +87,7 @@ export default function Balance() {
               <div className=" w-[90%] h-[50%] relative flex justify-between items-center ">
                 <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/65] relative ">
                   <Image
-                    src="/image/judo_logo.png"
+                    src="/image/judo_big_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
@@ -107,7 +107,7 @@ export default function Balance() {
               <div className="w-full h-[60%] flex items-center border-b-[0.5px] border-b-white">
                 <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/65] relative ">
                   <Image
-                    src="/image/judo_logo.png"
+                    src="/image/judo_big_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
@@ -127,9 +127,9 @@ export default function Balance() {
             </div>
             <div  className=" w-[90%] px-[5%] h-[30%] flex flex-col items-center relative  bg-boxBg rounded-[23px] ">
               <div className="w-full h-[60%] flex items-center border-b-[0.5px] border-b-white">
-                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/75] relative ">
+                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/65] relative ">
                   <Image
-                    src="/image/pdg_ticket.png"
+                    src="/image/judo_big_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
@@ -149,9 +149,9 @@ export default function Balance() {
             </div>
             <div className=" w-[90%] px-[5%] h-[30%] flex flex-col items-center relative  bg-boxBg rounded-[23px] ">
               <div className="w-full h-[60%] flex items-center border-b-[0.5px] border-b-white">
-                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/75] relative ">
+                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/65] relative ">
                   <Image
-                    src="/image/pdg_ticket.png"
+                    src="/image/judo_big_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
