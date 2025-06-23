@@ -106,13 +106,13 @@ export default function DailyTask() {
                 >
                     <div className={`w-full max-w-[500px] px-[5%] relative flex flex-col `} >
                         <p className="w-full text-left text-[5vmax] sm:text-[4vmin] font-bold text-white ">Task List</p>
-                        <p className="w-full text-left text-[2vmax] sm:text-[2vmin] text-black ">Earn PDG and Play Game</p>
+                        <p className="w-full text-left text-[2vmax] sm:text-[2vmin] text-black ">Earn JSB and Play AI</p>
                     </div>
                     <div className=" w-[90%] h-full max-w-[500px] pb-[10%] flex flex-col justify-center items-center bg-boxBg rounded-[23px]" >
                         <div className=" w-full flex flex-col gap-[2%] items-center relative ">
-                            <div className=" w-[30vmax] sm:w-[20vmax] aspect-[616/182] relative ">
+                            <div className=" w-[10vmax] sm:w-[20vmax] aspect-[1/1] relative ">
                                 <Image
-                                    src="/image/intro_logo.png"
+                                    src="/image/judo_intro_logo.png"
                                     alt="main logo"
                                     layout="fill"
                                     objectFit="cover"
@@ -122,7 +122,7 @@ export default function DailyTask() {
                             <div className=" w-[90%] relative flex justify-between items-center">
                                 <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                                     <Image
-                                        src="/image/pdg_daily.png"
+                                        src="/image/judo_big_logo.png"
                                         alt="meatIcon"
                                         layout="fill"
                                         objectFit="cover"
@@ -138,7 +138,7 @@ export default function DailyTask() {
                                 <div className=" w-full flex justify-between items-center border-b-[0.5px] border-b-black py-[5%]">
                                     <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                                         <Image
-                                            src="/image/pdg_daily.png"
+                                            src="/image/judo_big_logo.png"
                                             alt="meatIcon"
                                             layout="fill"
                                             objectFit="cover"
@@ -146,7 +146,7 @@ export default function DailyTask() {
                                     </div>
                                     <div className=" flex flex-col items-start w-[55%] ">
                                         <p className=" text-[2.1vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-black">Daily Reward</p>
-                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">100 PDG</p>
+                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">100 JSB</p>
                                     </div>
                                     <div className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledDaily[0] ? 'opacity-100' : 'opacity-20'}`}>
                                         <div onClick={() => dailyHandleClick(0, 100)} className={`w-[40%] duration-300 aspect-[1/1] transition-all rounded-full bg-white absolute top-[50%] -translate-y-[50%] ${disabledDaily[0] ? "-translate-x-[100%] left-full" : "translate-x-0 left-0"}`}></div>
@@ -155,7 +155,7 @@ export default function DailyTask() {
                                 <div className=" w-full flex justify-between items-center py-[5%] ">
                                     <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                                         <Image
-                                            src="/image/pdg_daily.png"
+                                            src="/image/judo_big_logo.png"
                                             alt="meatIcon"
                                             layout="fill"
                                             objectFit="cover"
@@ -163,7 +163,7 @@ export default function DailyTask() {
                                     </div>
                                     <div className=" flex flex-col items-start w-[55%] ">
                                         <p className=" text-[2.1vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-black">RT our Post</p>
-                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">1k PDG</p>
+                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">1k JSB</p>
                                     </div>
                                     <a href="https://x.com/PDG_official_X" target="_blank" rel="noopener noreferrer" className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledDaily[1] ? 'opacity-100' : 'opacity-20'}`}>
                                         <div onClick={() => dailyHandleClick(1, 1000)} className={`w-[40%] duration-300 aspect-[1/1] transition-all rounded-full bg-white absolute top-[50%] -translate-y-[50%] ${disabledDaily[1] ? "-translate-x-[100%] left-full" : "translate-x-0 left-0"}`}></div>
@@ -174,7 +174,7 @@ export default function DailyTask() {
                             <div className=" w-[90%] relative flex justify-between items-center">
                                 <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                                     <Image
-                                        src="/image/pdg_option.png"
+                                        src="/image/judo_big_logo.png"
                                         alt="meatIcon"
                                         layout="fill"
                                         objectFit="cover"
@@ -190,7 +190,7 @@ export default function DailyTask() {
                                 <div className=" w-full flex justify-between items-center border-b-[0.5px] border-b-black py-[5%]">
                                     <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                                         <Image
-                                            src="/image/pdg_option.png"
+                                            src="/image/judo_big_logo.png"
                                             alt="meatIcon"
                                             layout="fill"
                                             objectFit="cover"
@@ -198,7 +198,7 @@ export default function DailyTask() {
                                     </div>
                                     <div className=" flex flex-col items-start w-[55%] ">
                                         <p className=" text-[2.1vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-black">Follow X</p>
-                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">1K PDG</p>
+                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">1K JSB</p>
                                     </div>
                                     <a href="https://x.com/PDG_official_X" target="_blank" rel="noopener noreferrer" className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledTask[0] ? 'opacity-100' : 'opacity-20'}`}>
                                         <div onClick={() => handleClick(0, 1000)} className={`w-[40%] duration-300 aspect-[1/1] transition-all rounded-full bg-white absolute top-[50%] -translate-y-[50%] ${disabledTask[0] ? "-translate-x-[100%] left-full" : "translate-x-0 left-0"}`}></div>
@@ -207,7 +207,7 @@ export default function DailyTask() {
                                 <div className=" w-full flex justify-between items-center py-[5%] ">
                                     <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                                         <Image
-                                            src="/image/pdg_option.png"
+                                            src="/image/judo_big_logo.png"
                                             alt="meatIcon"
                                             layout="fill"
                                             objectFit="cover"
@@ -215,7 +215,7 @@ export default function DailyTask() {
                                     </div>
                                     <div className=" flex flex-col items-start w-[55%] ">
                                         <p className=" text-[2.1vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-black">Invite 5 users</p>
-                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">5k PDG | {inviteCount}/5users</p>
+                                        <p className=" text-[1.8vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">5k JSB | {inviteCount}/5users</p>
                                     </div>
                                     <div className={` w-[20%] bg-[#767DFF] h-[50%] rounded-3xl relative duration-300 transition-all ${disabledTask[1] ? 'opacity-100' : 'opacity-20'}`}>
                                         <div onClick={() => handleClick(1, 5000)} className={`w-[40%] duration-300 aspect-[1/1] transition-all rounded-full bg-white absolute top-[50%] -translate-y-[50%] ${disabledTask[1] ? "-translate-x-[100%] left-full" : "translate-x-0 left-0"}`}></div>

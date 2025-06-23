@@ -41,7 +41,7 @@ export default function Invite() {
                         <div className="w-full relative flex justify-center ">
                             <div className=" w-[30vmax] sm:w-[30vmin] aspect-[434/443] relative ">
                                 <Image
-                                    src="/image/pdg_invite_main.png"
+                                    src="/image/judo_invite_main.png"
                                     alt="scroll"
                                     layout="fill"
                                     objectFit="fill"
@@ -55,10 +55,10 @@ export default function Invite() {
                                 <p className=" text-white text-[3vmin] sm:text-[1.7vmin]">Get a play pass for each friends</p>
                             </div>
                             <div className="flex flex-col items-center pb-[5%]">
-                                <p className=" text-white text-[4vmin] sm:text-[2.3vmin]">Your friends join JetFuel</p>
+                                <p className=" text-white text-[4vmin] sm:text-[2.3vmin]">Your friends join JSB</p>
                                 <p className=" text-white text-[3vmin] sm:text-[1.7vmin]">Get a play pass for each friends</p>
                             </div>
-                            <p className=" text-white text-[4vmin] sm:text-[2.5vmin]">1 friends / 2000 PDG</p>
+                            <p className=" text-white text-[4vmin] sm:text-[2.5vmin]">1 friends / 2000 JSB</p>
                         </div>
                         <div className="w-full flex justify-center relative  ">
                             <div onClick={handleCopyClick} className="w-[50%] flex flex-col justify-center items-center relative bg-[#00B560] active:scale-90 transition-transform duration-100">

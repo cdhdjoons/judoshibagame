@@ -117,7 +117,7 @@ export default function LeaderBoard() {
                             <div className=" absolute left-[50%] top-[50%] p-[4%] -translate-y-[50%] -translate-x-[50%] w-[90%] h-[90%] rounded-full ">
                                 <div className="w-full aspect-[1/1] relative rounded-full ">
                                     <Image
-                                        src="/image/rank_circle_main.png"
+                                        src="/image/judo_invite_main.png"
                                         alt="main logo"
                                         layout="fill"
                                         objectFit="fill"
@@ -142,7 +142,7 @@ export default function LeaderBoard() {
                                 <div key={ranker.name} className="w-full flex justify-stretch items-center " >
                                     <div className=" relative w-[20%] aspect-[77/77]">
                                         <Image
-                                            src="/image/rank_icon.png"
+                                            src="/image/judo_big_logo.png"
                                             alt="main logo"
                                             layout="fill"
                                             objectFit="cover"

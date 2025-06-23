@@ -24,21 +24,20 @@ export default function Intro() {
     return (
         <AnimatePresence mode="wait">
             {showIntro ? (
-                <motion.div className=" z-[99] w-full h-lvh max-w-[500px] max-h-[1080px] bg-gradient-to-b from-[#BADA8E] to-[#2BAEB2]
+                <motion.div className=" z-[99] w-full h-lvh max-w-[500px] max-h-[1080px] bg-gradient-to-b from-[#DA8E8E] to-[#A9B22B]
               flex justify-center items-center overflow-hidden absolute duration-300 "
                     initial={false}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <div className="w-[30vmax] sm:w-[25vmax] aspect-[616/182] text-[5vmax] text-center relative">
-                        {/* <Image
-                            src="/image/intro_logo.png"
+                    <div className="w-[30vmax] sm:w-[25vmax] aspect-[462/137] text-[5vmax] text-center relative">
+                        <Image
+                            src="/image/judo_intro_logo.png"
                             alt="main logo"
                             layout="fill"
                             objectFit="cover"
-                        /> */}
-                        JUDOSHIBA
+                        />
                     </div>
                 </motion.div>) : ''}
         </AnimatePresence>

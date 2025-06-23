@@ -34,10 +34,10 @@ export default function Home() {
                     <p className="text-white text-[4vmin] sm:text-[2vmin] xs:text-[4vmin] opacity-20">Lets start</p>
                   </div>
                   <div className=" flex justify-around">
-                    <p className="w-full text-[4vmin] sm:text-[1.6vmin] xs:text-[3.5vmin] -rotate-0 text-white bg-clip-text text-transparent ">To earn PDG, Join in our X.</p>
+                    <p className="w-full text-[4vmin] sm:text-[1.6vmin] xs:text-[3.5vmin] -rotate-0 text-white bg-clip-text text-transparent ">To earn JSB, Join in our X.</p>
                     <div className="w-[7vmin] sm:w-[4vmin] xs:w-[6vmin] aspect-[75/75] relative">
                       <Image
-                        src="/image/p_icon.png"
+                        src="/image/judo_logo.png"
                         alt="main logo"
                         layout="fill"
                         objectFit="cover"

@@ -41,11 +41,10 @@ export default function Footer() {
                         </div>
                     </Link>
                     <Link href="/">
-                        <div className="w-[13vmin] sm:w-[6vmin] aspect-[58/58] relative active:scale-90 transition-transform duration-200">
+                        <div className="w-[13vmin] sm:w-[6vmin] aspect-[69/70] relative active:scale-90 transition-transform duration-200">
                             <p className=" absolute bottom-[-40%] left-1/2 -translate-x-1/2 font-normal text-white text-[1.2vmax] sm:text-[1.2vmin] text-center">Home</p>
-
                             <Image
-                                src="/image/pdg_home.png"
+                                src="/image/judo_home.png"
                                 alt="meatIcon"
                                 fill
                                 style={{ objectFit: "cover" }}

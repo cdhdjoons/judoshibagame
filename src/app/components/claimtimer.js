@@ -17,7 +17,7 @@ export default function ClaimTimer() {
     const TIMER_DURATION = 21600; // 6 hours in seconds
 
     const [time, setTime] = useState(TIMER_DURATION); // 10초 타이머
-    const [onClaim, setOnClaim] = useState(false);
+    const [onClaim, setOnClaim] = useState(true);
     const [n2o, setN2O] = useState(0);
     const timerRef = useRef(null);
     const hasFinished = useRef(false);
@@ -140,12 +140,12 @@ export default function ClaimTimer() {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3 }}
             >
-                <div className="w-full min-h-[196px] h-[40%] flex justify-center items-center relative">
+                <div className="w-full min-h-[196px] h-[35%] flex justify-center items-center relative">
                     <div className=" bg-boxBg w-[90%] h-full max-w-[450px] rounded-[23px] flex flex-col justify-between overflow-hidden">
-                        <div className="w-full max-w-[450px] px-[3%] py-[2%] rounded-[23px] flex items-center  relative active:scale-95 transition-transform duration-100 ">
+                        <div className="w-full h-[35%] max-w-[450px] px-[3%] pt-[2%] rounded-[23px] flex justify-center items-center  relative active:scale-95 transition-transform duration-100 ">
                             <div className="w-[9vmin] aspect-[59/59] relative">
                                 <Image
-                                    src="/image/p_icon2.png"
+                                    src="/image/judo_jsd_icon.png"
                                     alt="main logo"
                                     layout="fill"
                                     objectFit="cover"
@@ -154,7 +154,7 @@ export default function ClaimTimer() {
                             <div className=" w-full flex flex-col px-[5%]">
                                 <div className="flex justify-between items-center">
                                     <p className={` text-white text-[4vmin] sm:text-[2vmin]
-               mt-1 `}>{n2o >= 1000000 ? `${n2o / 1000000}m` : n2o >= 1000 ? `${n2o / 1000}k` : n2o} PDG</p>
+               mt-1 font-bold `}>{n2o >= 1000000 ? `${n2o / 1000000}m` : n2o >= 1000 ? `${n2o / 1000}k` : n2o} JSB</p>
                                     <p className="text-white text-[4vmin] sm:text-[2vmin] opacity-20">Score</p>
                                 </div>
                                 <div className=" flex justify-around">
@@ -162,12 +162,12 @@ export default function ClaimTimer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full h-[80%] relative bg-white">
+                        <div className="w-full h-[65%] relative bg-white">
                             <Image
-                                src="/image/pdg_main.png"
+                                src="/image/judo_main.png"
                                 alt="main logo"
                                 layout="fill"
-                                objectFit="contain"
+                                objectFit="cover"
                             />
                         </div>
                     </div>
@@ -175,10 +175,10 @@ export default function ClaimTimer() {
                 <div className="w-full min-h-[147px] h-[30%] flex justify-center items-center relative  ">
                     <div className="w-[90%] py-[2%] h-full sm:w-[90%] relative flex flex-col justify-between items-center rounded-[23px] bg-boxBg">
                         <div className="w-full flex justify-around items-center  ">
-                            <p className="  text-[#06F7A1] text-[4.5vmin] sm:text-[2.5vmin] font-bold">Earn 2000 PDG</p>
+                            <p className="  text-[#06F7A1] text-[4.5vmin] sm:text-[2.5vmin] font-bold">Earn 2000 JSB</p>
                             <p className=" text-[#808080] text-[4.5vmin] sm:text-[2.5vmin] font-bold ">{formatTime(time)}</p>
                         </div>
-                        <p className="text-white opacity-50 text-center text-[3vmin] sm:text-[1.5vmin]">Enter your favorite restaurant name and get PDG.</p>
+                        <p className="text-white opacity-50 text-center text-[3vmin] sm:text-[1.5vmin]">Enter your Knowledge and get JSB.</p>
                         <div className="w-full relative flex justify-center py-[2%] items-end ">
                             <div className="w-[80%] h-[1vmin] xs:h-[0.8vmin] sm:h-[0.7vmin] rounded-3xl bg-[#787880] relative ">
                                 <div className="w-full bg-[#007AFF] rounded-3xl h-full absolute left-0" style={{ width: progressWidth }}></div>
@@ -191,7 +191,7 @@ export default function ClaimTimer() {
                                 type="text"
                                 value={inputValue}
                                 onChange={(e) => setInputValue(e.target.value)}
-                                placeholder="eg. Hawker Centre"
+                                placeholder=""
                                 className="flex-1 pl-1 outline-none bg-transparent text-gray-600 placeholder-gray-400"
                             />
                             {inputValue === "" ? (
@@ -213,7 +213,7 @@ export default function ClaimTimer() {
 
                 <Link href="/balance" className=" min-h-[90px] py-[3%] bg-boxBg rounded-[23px] w-[90%] sm:w-[90%] flex flex-col justify-center items-center relative">
                     <p className=" text-white text-[5vmin] xs:text-[6vmin] sm:text-[3vmin] z-10 font-bold">Get More Tickets</p>
-                    <p className=" text-white opacity-50 text-[3vmin] sm:text-[1.3vmin] ">Exchange your PDG for tickets to enter the game.</p>
+                    <p className=" text-white opacity-50 text-[3vmin] sm:text-[1.3vmin] ">Exchange your JSB for tickets to enter the game.</p>
                     <p className=" w-full py-[2%] mt-[4%] border-t-[0.5px] border-t-borderBlack text-center text-[#FF453A] text-[4vmin] xs:text-[5vmin] sm:text-[2.5vmin]
                         active:scale-90 transition-transform duration-200">Go to get tickets</p>
                 </Link>

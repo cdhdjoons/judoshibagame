@@ -72,22 +72,22 @@ export default function Balance() {
               <div className=" w-[90%] h-[50%] relative flex justify-between items-center border-b-[0.5px] border-b-white  ">
                 <div className=" w-[11vmin] sm:w-[6vmin] aspect-[75/75] relative ">
                   <Image
-                    src="/image/p_icon.png"
+                    src="/image/judo_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
                   />
                 </div>
                 <div className=" flex flex-col items-start w-[55%] ">
-                  <p className=" text-[2.5vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-white">PDG</p>
-                  <p className=" text-[2vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">PRODIGI Connect</p>
+                  <p className=" text-[2.5vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] font-bold text-white">JSB</p>
+                  <p className=" text-[2vmax] xs:text-[1.5vmax] sm:text-[1.9vmin] text-[#C0C0C0]">JUDO SHIBA</p>
                 </div>
                 <p className=" w-[20%] text-center font-bold text-white text-[2.5vmax] xs:text-[2.3vmax] sm:text-[2.2vmin] ">{n2o >= 1000000 ? `${n2o / 1000000}m` : n2o >= 1000 ? `${n2o / 1000}k` : n2o}</p>
               </div>
               <div className=" w-[90%] h-[50%] relative flex justify-between items-center ">
-                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/75] relative ">
+                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/65] relative ">
                   <Image
-                    src="/image/pdg_ticket.png"
+                    src="/image/judo_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
@@ -101,24 +101,23 @@ export default function Balance() {
               </div>
             </div>
           </div>
-          <p className="w-full pl-[10%] text-left text-[4.3vmax] xs:text-[4vmax] sm:text-[4.5vmin] text-black font-bold ">Get Tickets</p>
+          <p className="w-full pl-[10%] text-left text-[4.3vmax] xs:text-[4vmax] sm:text-[4.5vmin] text-white font-bold ">Get Tickets</p>
           <div className=" w-full h-[55%] py-[1vmin] flex gap-3 flex-col items-center justify-center">
             <div  className=" w-[90%] px-[5%] h-[30%] flex flex-col items-center relative  bg-boxBg rounded-[23px] ">
               <div className="w-full h-[60%] flex items-center border-b-[0.5px] border-b-white">
-                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/75] relative ">
+                <div className=" w-[10vmin] sm:w-[6vmin] aspect-[65/65] relative ">
                   <Image
-                    src="/image/pdg_ticket.png"
+                    src="/image/judo_logo.png"
                     alt="meatIcon"
                     layout="fill"
                     objectFit="cover"
                   />
                 </div>
                 <div className="w-[80%] flex flex-col ">
-                  <p className=" text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-end">Get 1 Ticket for Gaming</p>
+                  <p className=" text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-start ml-2">Get 1 Ticket</p>
                   <div className=" flex justify-end gap-1 " >
                     <p className="text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-right font-bold ">500</p>
-                    <p className=" text-center text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] 
-        bg-gradient-to-r from-[#BADA8E] to-[#3daeb2] bg-clip-text text-transparent font-bold ">PDG</p>
+                    <p className=" text-center text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-white font-bold ">JSB</p>
                   </div>
                 </div>
               </div>
@@ -137,11 +136,10 @@ export default function Balance() {
                   />
                 </div>
                 <div className="w-[80%] flex flex-col ">
-                  <p className=" text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-end">Get 1 Ticket for Gaming</p>
+                  <p className=" text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-start ml-2">Get 3 Ticket</p>
                   <div className=" flex justify-end gap-1 " >
                     <p className="text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-right font-bold ">1300</p>
-                    <p className=" text-center text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] 
-        bg-gradient-to-r from-[#BADA8E] to-[#3daeb2] bg-clip-text text-transparent font-bold ">PDG</p>
+                    <p className=" text-center text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-white font-bold ">JSB</p>
                   </div>
                 </div>
               </div>
@@ -160,11 +158,11 @@ export default function Balance() {
                   />
                 </div>
                 <div className="w-[80%] flex flex-col ">
-                  <p className=" text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-end">Get 1 Ticket for Gaming</p>
+                  <p className=" text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-start ml-2">Get 5 Ticket</p>
                   <div className=" flex justify-end gap-1 " >
                     <p className="text-white text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] text-right font-bold ">2000</p>
                     <p className=" text-center text-[2.5vmax] xs:text-[2vmax] sm:text-[2.2vmin] 
-        bg-gradient-to-r from-[#BADA8E] to-[#3daeb2] bg-clip-text text-transparent font-bold ">PDG</p>
+        text-white font-bold ">JSB</p>
                   </div>
                 </div>
               </div>
@@ -175,7 +173,7 @@ export default function Balance() {
             
           </div>
           {pop && (
-            <div className=" absolute top-[10px] left-1/2 -translate-x-1/2 z-[999] "><Alert severity="error">Need more PDG.</Alert></div>
+            <div className=" absolute top-[10px] left-1/2 -translate-x-1/2 z-[999] "><Alert severity="error">Need more JSB.</Alert></div>
           )}
         </div>
       </motion.div>
